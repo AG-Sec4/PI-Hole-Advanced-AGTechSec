@@ -1,0 +1,13 @@
+flowchart LR
+    subgraph Clients
+        PC1[PC / Laptop]
+        MOB1[Mobile]
+        IOT1[IoT Device]
+    end
+
+    ROUTER[Home Router]
+    PIHOLE[Pi-hole DNS]
+    UPSTREAM[(Upstream DNS / Unbound)]
+
+    Clients --> ROUTER --> PIHOLE --> UPSTREAM
+
