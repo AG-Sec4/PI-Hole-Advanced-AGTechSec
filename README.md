@@ -1,4 +1,4 @@
-# 🛡️ PI-Hole-Advanced-AGTechSec
+# 🛡️ PI-Hole-Advanced
 
 Advanced Pi-hole setup for clean DNS, privacy, security and home-lab learning.
 
